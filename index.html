@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Java Introduction</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Dark/Light mode toggle button added at the top right -->
   <button id="themeToggle" class="theme-toggle">Dark Mode</button>
-  
+
   <div class="container">
     <h1>Introduction</h1>
 
@@ -284,8 +286,12 @@ System.out.println(sb); // Output: Hello Java</code></pre>
         </ul>
         <h3>📐 Length Units in CSS</h3>
         <ul>
-          <li><strong>Relative:</strong> <code>em</code>, <code>rem</code>, <code>%</code>, <code>vw</code>, <code>vh</code></li>
-          <li><strong>Absolute:</strong> <code>px</code>, <code>pt</code>, <code>cm</code>, <code>mm</code>, <code>in</code></li>
+          <li><strong>Relative:</strong> <code>em</code>, <code>rem</code>, <code>%</code>, <code>vw</code>,
+            <code>vh</code>
+          </li>
+          <li><strong>Absolute:</strong> <code>px</code>, <code>pt</code>, <code>cm</code>, <code>mm</code>,
+            <code>in</code>
+          </li>
           <li><strong>Percentage:</strong> Relative to parent element size</li>
         </ul>
         <h3>📦 Types of Style Sheets</h3>
@@ -486,7 +492,7 @@ p::first-letter {
   <script>
     // Dark/Light mode toggle functionality
     const toggleButton = document.getElementById('themeToggle');
-    toggleButton.addEventListener('click', function() {
+    toggleButton.addEventListener('click', function () {
       document.body.classList.toggle('dark');
       // Update button text based on current mode
       if (document.body.classList.contains('dark')) {
@@ -497,10 +503,10 @@ p::first-letter {
     });
 
     // Collapsible section toggle functionality
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const headers = document.querySelectorAll(".collapsible-header");
       headers.forEach(header => {
-        header.addEventListener("click", function() {
+        header.addEventListener("click", function () {
           const content = header.nextElementSibling;
           const arrow = header.querySelector(".toggle-arrow");
           if (content.style.display === "block") {
@@ -515,4 +521,5 @@ p::first-letter {
     });
   </script>
 </body>
+
 </html>

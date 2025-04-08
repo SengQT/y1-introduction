@@ -1,190 +1,195 @@
 /* ========================
    Light Mode (Default) Styles 
    ======================== */
-   body {
-    background-color: #ffffff; /* Light background */
-    color: #121212;            /* Dark text */
-    margin: 0;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #f5f5f5; /* Light container */
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-  }
-  
-  h1 {
-    color: #121212;
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5em;
-  }
-  
-  h2 {
-    color: #6200ee; /* A soft, contrasting color */
-    font-size: 1.5em;
-    margin: 0;
-  }
-  
-  /* Collapsible section styling */
-  .collapsible {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    overflow: hidden;
-  }
-  
-  .collapsible-header {
-    background-color: #e0e0e0;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .toggle-arrow {
-    font-size: 1.5em;
-    transition: transform 0.3s;
-  }
-  
-  .collapsible-content {
-    padding: 20px;
-    display: none; /* Sections start collapsed */
-  }
-  
-  /* Adjust lists and code */
-  ul {
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  
-  li {
-    margin-bottom: 8px;
-    position: relative;
-  }
-  
-  li::before {
-    content: "•";
-    color: #6200ee;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-  
-  pre {
-    background-color: #f0f0f0;
-    padding: 15px;
-    border-radius: 5px;
-    overflow-x: auto;
-    border-left: 4px solid #6200ee;
-    margin-bottom: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-  }
-  
-  th, td {
-    padding: 12px 15px;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #6200ee;
-    color: #ffffff;
-  }
-  
-  tr:hover {
-    background-color: #f5f5f5;
-  }
-  
-  code {
-    background-color: #f0f0f0;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-family: Consolas, Monaco, monospace;
-  }
-  
-  /* Theme toggle button styling (Light Mode Button Appearance) */
-  .theme-toggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 12px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    z-index: 1000;
-    background-color: #121212;
-    color: #ffffff;
-  }
-  
-  /* ========================
+body {
+  background-color: #ffffff;
+  /* Light background */
+  color: #121212;
+  /* Dark text */
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  /* Light container */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #121212;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #6200ee;
+  /* A soft, contrasting color */
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* Collapsible section styling */
+.collapsible {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.collapsible-header {
+  background-color: #e0e0e0;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggle-arrow {
+  font-size: 1.5em;
+  transition: transform 0.3s;
+}
+
+.collapsible-content {
+  padding: 20px;
+  display: none;
+  /* Sections start collapsed */
+}
+
+/* Adjust lists and code */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+li::before {
+  content: "•";
+  color: #6200ee;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  border-left: 4px solid #6200ee;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #6200ee;
+  color: #ffffff;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: Consolas, Monaco, monospace;
+}
+
+/* Theme toggle button styling (Light Mode Button Appearance) */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 1000;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* ========================
      Dark Mode Styles 
      (Based on your provided dark mode palette)
      ======================== */
-  body.dark {
-    background-color: #121212;
-    color: #e0e0e0;
-  }
-  
-  body.dark .container {
-    background-color: #1e1e1e;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.8);
-  }
-  
-  body.dark h1 {
-    color: #f0f0f0;
-  }
-  
-  body.dark h2 {
-    color: #bb86fc;
-  }
-  
-  body.dark .collapsible {
-    border: 1px solid #333;
-  }
-  
-  body.dark .collapsible-header {
-    background-color: #2c2c2c;
-  }
-  
-  body.dark li::before {
-    color: #bb86fc;
-  }
-  
-  body.dark pre {
-    background-color: #2c2c2c;
-    border-left: 4px solid #bb86fc;
-  }
-  
-  body.dark table th {
-    background-color: #bb86fc;
-    color: #121212;
-  }
-  
-  body.dark tr:hover {
-    background-color: #333;
-  }
-  
-  /* Toggle button adjustments for dark mode */
-  body.dark .theme-toggle {
-    background-color: #ffffff;
-    color: #121212;
-  }
-  
-  body.dark a {
-    color: #bb86fc;
-  }
-  
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .container {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+body.dark h1 {
+  color: #f0f0f0;
+}
+
+body.dark h2 {
+  color: #bb86fc;
+}
+
+body.dark .collapsible {
+  border: 1px solid #333;
+}
+
+body.dark .collapsible-header {
+  background-color: #2c2c2c;
+}
+
+body.dark li::before {
+  color: #bb86fc;
+}
+
+body.dark pre {
+  background-color: #2c2c2c;
+  border-left: 4px solid #bb86fc;
+}
+
+body.dark table th {
+  background-color: #bb86fc;
+  color: #121212;
+}
+
+body.dark tr:hover {
+  background-color: #333;
+}
+
+/* Toggle button adjustments for dark mode */
+body.dark .theme-toggle {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+body.dark a {
+  color: #bb86fc;
+}
