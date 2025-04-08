@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Java Introduction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Introduction</h1>
+
+    <!-- Demontfort Application Design Summary Section (one big unit) -->
+    <div class="collapsible">
+      <div class="collapsible-header">
+        <h2>📚 Demontfort Application Design Summary</h2>
+        <span class="toggle-arrow">▼</span>
+      </div>
+      <div class="collapsible-content">
+        <h3>🕸️ Internet Origins &amp; Growth</h3>
+        <ul>
+          <li><strong>1969–1991:</strong> ARPANET to commercial internet</li>
+          <li><strong>Usage Growth:</strong> 0.4% (1995) → 56.1% (2019)</li>
+        </ul>
+
+        <h3>🌐 Web Fundamentals</h3>
+        <ul>
+          <li><strong>WWW Invented (1989):</strong> By Tim Berners-Lee</li>
+          <li><strong>Core Tech:</strong> HTTP, HTML, URL</li>
+          <li><strong>Web Browsers:</strong> Mosaic, Netscape, IE</li>
+          <li><strong>Governance:</strong> IETF, ICANN, W3C</li>
+        </ul>
+
+        <h3>📏 Web Standards &amp; Accessibility</h3>
+        <ul>
+          <li><strong>WCAG Principles:</strong> Perceivable, Operable, Understandable, Robust</li>
+          <li><strong>Universal Design:</strong> For all users</li>
+        </ul>
+
+        <h3>☁️ Networks &amp; Cloud Computing</h3>
+        <ul>
+          <li><strong>Network Types:</strong> LAN, WAN, MAN, PAN</li>
+          <li><strong>Topologies:</strong> Bus, Star, Ring, Mesh</li>
+          <li><strong>Cloud:</strong> Scalable, remote access</li>
+        </ul>
+
+        <h3>🔗 Client-Server Architecture</h3>
+        <ul>
+          <li><strong>Client:</strong> Browser/mobile app</li>
+          <li><strong>Server Types:</strong> Web, DB, App, Mail</li>
+          <li><strong>Three-Tier Architecture:</strong> Presentation, Application, Data</li>
+        </ul>
+
+        <h3>📈 Application Development Evolution</h3>
+        <ul>
+          <li><strong>1940s–1950s:</strong> Machine code</li>
+          <li><strong>1960s:</strong> High-level languages (Fortran, COBOL)</li>
+          <li><strong>1980s:</strong> GUI, PCs</li>
+          <li><strong>1990s–2000s:</strong> Web, client-server</li>
+          <li><strong>Now:</strong> Mobile, cloud, AI, IoT</li>
+        </ul>
+
+        <h3>💡 Modern Web Development</h3>
+        <ul>
+          <li><strong>Trends:</strong> Microservices, serverless, PWAs</li>
+          <li><strong>Tools:</strong> HTML, CSS, JS, APIs</li>
+          <li><strong>Web Design Principles:</strong> Purpose, simplicity, consistency</li>
+        </ul>
+
+        <h3>🎨 Web Design Basics</h3>
+        <h4>🖥️ Web Components</h4>
+        <ul>
+          <li><strong>Web Page:</strong> HTML + CSS</li>
+          <li><strong>Website:</strong> Collection of pages</li>
+          <li><strong>Web Server:</strong> Hosts and delivers content</li>
+          <li><strong>Domain Structure:</strong> Subdomain + SLD + TLD</li>
+        </ul>
+        <h4>📐 Design Principles</h4>
+        <ul>
+          <li><strong>UI/UX:</strong> Navigation, accessibility, responsiveness</li>
+          <li><strong>Color Schemes:</strong> Monochromatic, Analogous, Complementary, etc.</li>
+          <li><strong>Wireframes:</strong> Low- to high-fidelity layouts</li>
+        </ul>
+
+        <h3>🌐 Web Protocols</h3>
+        <ul>
+          <li><strong>HTTP/HTTPS:</strong> Web communication</li>
+          <li><strong>FTP/SFTP:</strong> File transfer</li>
+          <li><strong>WebSocket:</strong> Real-time updates</li>
+          <li><strong>Email Protocols:</strong> SMTP, POP3, IMAP</li>
+          <li><strong>DNS:</strong> Translates domain to IP</li>
+          <li><strong>TCP/IP:</strong> Data routing</li>
+        </ul>
+
+        <h3>🧠 Human-Computer Interaction (HCI)</h3>
+        <h4>🧍‍♂️ Key Concepts</h4>
+        <ul>
+          <li>Focus on user needs and experience</li>
+          <li>Usability = Learnable, efficient, error-tolerant, satisfying</li>
+          <li>HCI matters for safety, efficiency, and business success</li>
+        </ul>
+        <h4>🧩 Design Approaches</h4>
+        <ul>
+          <li><strong>Traditional:</strong> Code-focused, high failure rate</li>
+          <li><strong>User-Centered:</strong> Iterative, feedback-driven design</li>
+        </ul>
+        <h4>♿ Usability &amp; Accessibility</h4>
+        <ul>
+          <li><strong>Usability:</strong> Easy and satisfying for all users</li>
+          <li><strong>Accessibility (WCAG POUR):</strong> For users with disabilities</li>
+          <li><strong>Tools:</strong> Screen readers, color contrast checkers, validators</li>
+        </ul>
+        <h4>⚖️ Legal &amp; Ethical Issues</h4>
+        <ul>
+          <li><strong>Laws:</strong> GDPR, CCPA, WCAG</li>
+          <li><strong>Ethical Practices:</strong> Privacy, security, inclusive design</li>
+          <li><strong>Avoid:</strong> AI bias, dark patterns, inaccessible content</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Arrays Overview Section -->
+    <div class="collapsible">
+      <div class="collapsible-header">
+        <h2>📚 Arrays Overview</h2>
+        <span class="toggle-arrow">▼</span>
+      </div>
+      <div class="collapsible-content">
+        <h3>🔹 What is an Array?</h3>
+        <ul>
+          <li>An array is a collection of elements stored in <strong>contiguous memory</strong></li>
+          <li>Example: <code>int[] numbers = {10, 20, 30, 40, 50};</code></li>
+        </ul>
+        <h3>✅ Advantages</h3>
+        <ul>
+          <li>Stores multiple values in one variable</li>
+          <li>Fast index access</li>
+          <li>Enhances readability and efficiency</li>
+        </ul>
+        <h3>⚠️ Limitations</h3>
+        <ul>
+          <li>Fixed in size once declared</li>
+          <li>Elements must be of the same data type</li>
+        </ul>
+        <h3>🛠️ Declaring &amp; Initializing Arrays</h3>
+        <pre><code>int[] arr = new int[5]; // Size-based initialization
+int[] arr = {10, 20, 30};   // Direct initialization</code></pre>
+        <h3>🔁 Common Array Operations</h3>
+        <h4>📏 Get Array Length</h4>
+        <pre><code>int length = array.length;</code></pre>
+        <h4>🔁 Looping Through Arrays</h4>
+        <ul>
+          <li><strong>For Loop:</strong></li>
+        </ul>
+        <pre><code>for (int i = 0; i < array.length; i++) {
+  // Process array[i]
+}</code></pre>
+        <ul>
+          <li><strong>Enhanced For Loop:</strong></li>
+        </ul>
+        <pre><code>for (int item : array) {
+  // Process item
+}</code></pre>
+        <h4>🔍 Searching Example</h4>
+        <pre><code>for (int num : arr) {
+  if (num == key) {
+    found = true;
+    break;
+  }
+}</code></pre>
+        <h4>🔧 Arrays Utility Class</h4>
+        <pre><code>import java.util.Arrays;
+Arrays.sort(arr);
+Arrays.binarySearch(arr, key);
+Arrays.toString(arr);</code></pre>
+        <h4>🔢 2D Arrays (Multidimensional)</h4>
+        <pre><code>int[][] matrix = {
+  {1, 2, 3},
+  {4, 5, 6}
+};
+
+// Access:
+int value = matrix[1][2]; // value is 6
+
+// Traversing:
+for (int i = 0; i < matrix.length; i++) {
+  for (int j = 0; j < matrix[i].length; j++) {
+    System.out.print(matrix[i][j] + " ");
+  }
+}</code></pre>
+        <h4>🧪 Lab Activities</h4>
+        <ul>
+          <li>Sum of Array Elements</li>
+          <li>Find Maximum and Minimum in an Array</li>
+          <li>Matrix Addition (2D Arrays)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Java String Classes & Methods Section -->
+    <div class="collapsible">
+      <div class="collapsible-header">
+        <h2>📚 Java String Classes &amp; Methods Summary</h2>
+        <span class="toggle-arrow">▼</span>
+      </div>
+      <div class="collapsible-content">
+        <h3>🧵 What is a String?</h3>
+        <ul>
+          <li><strong>String:</strong> A class in <code>java.lang</code> representing a sequence of characters</li>
+          <li>Strings are <strong>immutable</strong> and stored in a shared pool</li>
+          <li>Example: <code>String name = "Alice";</code></li>
+        </ul>
+        <h3>🛠️ Creating Strings</h3>
+        <pre><code>String s1 = "Java"; // Using literal
+String s2 = new String("Hello");</code></pre>
+        <h3>🔄 Immutability Example</h3>
+        <pre><code>String s = "Java";
+s.concat(" Programming");  // s remains unchanged
+System.out.println(s);     // Output: Java</code></pre>
+        <h3>✨ Common String Methods</h3>
+        <pre><code>String name = "  Java Programming  ";
+name.length();
+name.charAt(2);
+name.toUpperCase();
+name.toLowerCase();
+name.trim();
+name.concat(" Rocks");</code></pre>
+        <h3>⚖️ String Comparison</h3>
+        <ul>
+          <li><code>==</code> checks reference equality</li>
+          <li><code>.equals()</code> checks content equality</li>
+          <li><code>.equalsIgnoreCase()</code> compares strings ignoring case</li>
+          <li><code>.compareTo()</code> performs lexical comparison</li>
+        </ul>
+        <h3>🔍 Searching &amp; Substrings</h3>
+        <pre><code>sentence.indexOf("Java");
+sentence.lastIndexOf('a');
+sentence.substring(11);
+sentence.contains("to");</code></pre>
+        <h3>🔁 Replacing &amp; Splitting</h3>
+        <pre><code>data.replace("banana", "orange");
+data.split(","); // Returns an array</code></pre>
+        <h3>🔧 StringBuilder</h3>
+        <ul>
+          <li>Mutable alternative for frequent changes</li>
+          <li>Not thread-safe</li>
+        </ul>
+        <pre><code>StringBuilder sb = new StringBuilder("Hello");
+sb.append(" Java");
+System.out.println(sb); // Output: Hello Java</code></pre>
+        <h4>🧪 Lab Activities</h4>
+        <ul>
+          <li>Count vowels in a sentence</li>
+          <li>Reverse a string using a loop</li>
+          <li>Check if a string is a palindrome</li>
+          <li>Convert name to uppercase and verify if it contains “Admin”</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Introduction to CSS Section -->
+    <div class="collapsible">
+      <div class="collapsible-header">
+        <h2>🎨 Introduction to CSS (Cascading Style Sheets)</h2>
+        <span class="toggle-arrow">▼</span>
+      </div>
+      <div class="collapsible-content">
+        <h3>📌 Purpose</h3>
+        <ul>
+          <li>Defines <strong>how HTML elements are displayed</strong> on screen</li>
+          <li>Separates <strong>content (HTML)</strong> from <strong>presentation (CSS)</strong></li>
+        </ul>
+        <h3>🧱 CSS Syntax</h3>
+        <pre><code>selector {
+  property: value;
+}</code></pre>
+        <ul>
+          <li><strong>Selector:</strong> The HTML element to style</li>
+          <li><strong>Property:</strong> The style attribute to change (e.g., color)</li>
+          <li><strong>Value:</strong> The value for the style (e.g., red)</li>
+        </ul>
+        <h3>📐 Length Units in CSS</h3>
+        <ul>
+          <li><strong>Relative:</strong> <code>em</code>, <code>rem</code>, <code>%</code>, <code>vw</code>, <code>vh</code></li>
+          <li><strong>Absolute:</strong> <code>px</code>, <code>pt</code>, <code>cm</code>, <code>mm</code>, <code>in</code></li>
+          <li><strong>Percentage:</strong> Relative to parent element size</li>
+        </ul>
+        <h3>📦 Types of Style Sheets</h3>
+        <table>
+          <tr>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><strong>Inline</strong></td>
+            <td>Inside an HTML tag via the <code>style</code> attribute</td>
+          </tr>
+          <tr>
+            <td><strong>Internal</strong></td>
+            <td>Within a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section</td>
+          </tr>
+          <tr>
+            <td><strong>External</strong></td>
+            <td>A separate <code>.css</code> file linked via <code>&lt;link&gt;</code></td>
+          </tr>
+        </table>
+        <h3>🔍 CSS Selectors</h3>
+        <table>
+          <tr>
+            <th>Type</th>
+            <th>Syntax</th>
+            <th>Purpose</th>
+          </tr>
+          <tr>
+            <td><strong>Type</strong></td>
+            <td><code>p</code>, <code>h1</code>, etc.</td>
+            <td>Targets all elements of that type</td>
+          </tr>
+          <tr>
+            <td><strong>Class</strong></td>
+            <td><code>.classname</code></td>
+            <td>Reusable styling for multiple elements</td>
+          </tr>
+          <tr>
+            <td><strong>ID</strong></td>
+            <td><code>#idname</code></td>
+            <td>Unique styling for a single element</td>
+          </tr>
+          <tr>
+            <td><strong>Universal</strong></td>
+            <td><code>*</code></td>
+            <td>Targets all elements</td>
+          </tr>
+        </table>
+        <h3>🧭 Cascading Order (Priority)</h3>
+        <ol>
+          <li>Inline Styles</li>
+          <li>Internal Styles</li>
+          <li>External Styles</li>
+          <li>Browser Defaults</li>
+        </ol>
+        <p>Within these, <strong>ID &gt; Class &gt; Type</strong></p>
+        <h3>💬 Comments in CSS</h3>
+        <pre><code>/* This is a comment */</code></pre>
+        <h3>🧪 Pseudo Classes</h3>
+        <ul>
+          <li>Target element states (e.g., <code>:hover</code>, <code>:visited</code>, <code>:active</code>)</li>
+        </ul>
+        <pre><code>a:link { color: white; }
+a:visited { color: brown; }
+a:hover { background-color: white; }</code></pre>
+        <h3>✨ Pseudo Elements</h3>
+        <ul>
+          <li>Target specific parts of an element (e.g., <code>::first-line</code>, <code>::first-letter</code>)</li>
+        </ul>
+        <pre><code>p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: xx-large;
+}</code></pre>
+        <h3>🔗 Styling Hyperlinks</h3>
+        <ul>
+          <li>Can be styled globally, within containers, or via classes</li>
+          <li>Utilize pseudo classes for different states</li>
+        </ul>
+        <h3>📚 CSS Summary</h3>
+        <ul>
+          <li>CSS is essential for visually enhancing web content</li>
+          <li>Different selectors and stylesheets allow versatile control</li>
+          <li>Pseudo classes and elements enable dynamic, state-based styling</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Searching & Sorting Algorithms Section -->
+    <div class="collapsible">
+      <div class="collapsible-header">
+        <h2>🔍 Searching &amp; Sorting Algorithms</h2>
+        <span class="toggle-arrow">▼</span>
+      </div>
+      <div class="collapsible-content">
+        <h3>Searching Algorithms</h3>
+        <h4>1. Linear Search</h4>
+        <ul>
+          <li><strong>Concept:</strong> Sequentially checks each element</li>
+          <li><strong>Time Complexity:</strong> Best: O(1), Worst/Average: O(n)</li>
+        </ul>
+        <pre><code>for (int i = 0; i < arr.length; i++) {
+  if (arr[i] == key) return i;
+}</code></pre>
+        <h4>2. Binary Search</h4>
+        <ul>
+          <li><strong>Concept:</strong> Divide and conquer (for sorted arrays only)</li>
+          <li><strong>Time Complexity:</strong> Best: O(1), Worst/Average: O(log n)</li>
+        </ul>
+        <pre><code>while (low <= high) {
+  int mid = (low + high) / 2;
+  if (arr[mid] == key)
+    return mid;
+  else if (arr[mid] < key)
+    low = mid + 1;
+  else
+    high = mid - 1;
+}</code></pre>
+        <h3>⏱ Big O Notation (Time Complexity)</h3>
+        <table>
+          <tr>
+            <th>Complexity</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+          <tr>
+            <td>O(1)</td>
+            <td>Constant time</td>
+            <td>Accessing an element</td>
+          </tr>
+          <tr>
+            <td>O(log n)</td>
+            <td>Logarithmic time</td>
+            <td>Binary search</td>
+          </tr>
+          <tr>
+            <td>O(n)</td>
+            <td>Linear time</td>
+            <td>Linear search</td>
+          </tr>
+          <tr>
+            <td>O(n²)</td>
+            <td>Quadratic time</td>
+            <td>Bubble sort</td>
+          </tr>
+          <tr>
+            <td>O(n log n)</td>
+            <td>Efficient for large datasets</td>
+            <td>Quick sort</td>
+          </tr>
+        </table>
+        <h3>Sorting Algorithms</h3>
+        <h4>1. Bubble Sort</h4>
+        <ul>
+          <li>Compares and swaps adjacent elements</li>
+          <li><strong>Complexity:</strong> O(n²)</li>
+        </ul>
+        <pre><code>for (i = 0; i < n - 1; i++)
+  for (j = 0; j < n - i - 1; j++)
+    if (arr[j] > arr[j+1])
+      swap(arr[j], arr[j+1]);</code></pre>
+        <h4>2. Insertion Sort</h4>
+        <ul>
+          <li>Builds a sorted array one element at a time</li>
+          <li><strong>Complexity:</strong> O(n²)</li>
+        </ul>
+        <pre><code>for (i = 1; i < n; i++) {
+  key = arr[i];
+  j = i - 1;
+  while (j >= 0 && arr[j] > key)
+    arr[j+1] = arr[j--];
+  arr[j+1] = key;
+}</code></pre>
+        <h4>3. Selection Sort</h4>
+        <ul>
+          <li>Repeatedly finds the smallest element and moves it to the sorted portion</li>
+          <li><strong>Complexity:</strong> O(n²)</li>
+        </ul>
+        <pre><code>for (i = 0; i < n - 1; i++) {
+  min = i;
+  for (j = i + 1; j < n; j++)
+    if (arr[j] < arr[min])
+      min = j;
+  swap(arr[min], arr[i]);
+}</code></pre>
+        <h3>🧠 Key Concepts</h3>
+        <ul>
+          <li>Use Linear Search for unsorted arrays</li>
+          <li>Use Binary Search for sorted arrays</li>
+          <li>Understand the trade-offs in efficiency and simplicity for sorting algorithms</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const headers = document.querySelectorAll(".collapsible-header");
+      headers.forEach(header => {
+        header.addEventListener("click", function() {
+          const content = header.nextElementSibling;
+          const arrow = header.querySelector(".toggle-arrow");
+          if (content.style.display === "block") {
+            content.style.display = "none";
+            arrow.style.transform = "rotate(0deg)";
+          } else {
+            content.style.display = "block";
+            arrow.style.transform = "rotate(180deg)";
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
