@@ -83,6 +83,7 @@ li::before {
   margin-left: -1em;
 }
 
+/* Code blocks in light mode: ensure text is black */
 pre {
   background-color: #f0f0f0;
   padding: 15px;
@@ -90,6 +91,17 @@ pre {
   overflow-x: auto;
   border-left: 4px solid #6200ee;
   margin-bottom: 20px;
+  color: #121212;
+  /* Make text black in code blocks */
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: Consolas, Monaco, monospace;
+  color: #121212;
+  /* Make inline code text black */
 }
 
 table {
@@ -112,13 +124,6 @@ th {
 
 tr:hover {
   background-color: #f5f5f5;
-}
-
-code {
-  background-color: #f0f0f0;
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-family: Consolas, Monaco, monospace;
 }
 
 /* Theme toggle button styling (Light Mode Button Appearance) */
@@ -170,9 +175,18 @@ body.dark li::before {
   color: #bb86fc;
 }
 
+/* Code blocks in dark mode: ensure text is light */
 body.dark pre {
   background-color: #2c2c2c;
   border-left: 4px solid #bb86fc;
+  color: #e0e0e0;
+  /* Make text white in code blocks */
+}
+
+body.dark code {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  /* Make inline code text white */
 }
 
 body.dark table th {
