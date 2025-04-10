@@ -1,178 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Java, Python &amp; C++ Guide: Beginner to Expert</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Dark/Light mode toggle button added at the top right -->
-  <button id="themeToggle" class="theme-toggle">Dark Mode</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java &amp; Python Introduction</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Dark/Light mode toggle button added at the top right -->
+    <button id="themeToggle" class="theme-toggle">Dark Mode</button>
 
-  <div class="container">
-    <h1>Introduction</h1>
-
-    <!-- Section 1: Demontfort Application Design Summary -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>📚 Demontfort Application Design Summary</h2>
-        <span class="toggle-arrow">▼</span>
+    <div class="container">
+      <h1>Introduction</h1>
+      
+      <!-- Demontfort Application Design Summary Section -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>📚 Demontfort Application Design Summary</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>🕸️ Internet Origins &amp; Growth</h3>
+          <p>1969–1991: ARPANET to commercial internet</p>
+          <p>Usage Growth: 0.4% (1995) → 56.1% (2019)</p>
+          
+          <h3>🌐 Web Fundamentals</h3>
+          <p>WWW Invented (1989): By Tim Berners-Lee</p>
+          <p>Core Tech: HTTP, HTML, URL</p>
+          <p>Web Browsers: Mosaic, Netscape, IE</p>
+          <p>Governance: IETF, ICANN, W3C</p>
+          
+          <h3>📏 Web Standards &amp; Accessibility</h3>
+          <p>WCAG Principles: Perceivable, Operable, Understandable, Robust</p>
+          <p>Universal Design: For all users</p>
+          
+          <h3>☁️ Networks &amp; Cloud Computing</h3>
+          <p>Network Types: LAN, WAN, MAN, PAN</p>
+          <p>Topologies: Bus, Star, Ring, Mesh</p>
+          <p>Cloud: Scalable, remote access</p>
+          
+          <h3>🔗 Client-Server Architecture</h3>
+          <p>Client: Browser/mobile app</p>
+          <p>Server Types: Web, DB, App, Mail</p>
+          <p>Three-Tier Architecture: Presentation, Application, Data</p>
+          
+          <h3>📈 Application Development Evolution</h3>
+          <p>1940s–1950s: Machine code</p>
+          <p>1960s: High-level languages (Fortran, COBOL)</p>
+          <p>1980s: GUI, PCs</p>
+          <p>1990s–2000s: Web, client-server</p>
+          <p>Now: Mobile, cloud, AI, IoT</p>
+          
+          <h3>💡 Modern Web Development</h3>
+          <p>Trends: Microservices, serverless, PWAs</p>
+          <p>Tools: HTML, CSS, JS, APIs</p>
+          <p>Web Design Principles: Purpose, simplicity, consistency</p>
+          
+          <h3>🎨 Web Design Basics</h3>
+          <h4>🖥️ Web Components</h4>
+          <p>Web Page: HTML + CSS</p>
+          <p>Website: Collection of pages</p>
+          <p>Web Server: Hosts and delivers content</p>
+          <p>Domain Structure: Subdomain + SLD + TLD</p>
+          <h4>📐 Design Principles</h4>
+          <p>UI/UX: Navigation, accessibility, responsiveness</p>
+          <p>Color Schemes: Monochromatic, Analogous, Complementary, etc.</p>
+          <p>Wireframes: Low- to high-fidelity layouts</p>
+          
+          <h3>🌐 Web Protocols</h3>
+          <p>HTTP/HTTPS: Web communication</p>
+          <p>FTP/SFTP: File transfer</p>
+          <p>WebSocket: Real-time updates</p>
+          <p>Email Protocols: SMTP, POP3, IMAP</p>
+          <p>DNS: Translates domain to IP</p>
+          <p>TCP/IP: Data routing</p>
+          
+          <h3>🧠 Human-Computer Interaction (HCI)</h3>
+          <h4>🧍‍♂️ Key Concepts</h4>
+          <p>Focus on user needs and experience</p>
+          <p>Usability = Learnable, efficient, error-tolerant, satisfying</p>
+          <p>HCI matters for safety, efficiency, and business success</p>
+          <h4>🧩 Design Approaches</h4>
+          <p>Traditional: Code-focused, high failure rate</p>
+          <p>User-Centered: Iterative, feedback-driven design</p>
+          <h4>♿ Usability &amp; Accessibility</h4>
+          <p>Usability: Easy and satisfying for all users</p>
+          <p>Accessibility (WCAG POUR): For users with disabilities</p>
+          <p>Tools: Screen readers, color contrast checkers, validators</p>
+          <h4>⚖️ Legal &amp; Ethical Issues</h4>
+          <p>Laws: GDPR, CCPA, WCAG</p>
+          <p>Ethical Practices: Privacy, security, inclusive design</p>
+          <p>Avoid: AI bias, dark patterns, inaccessible content</p>
+        </div>
       </div>
-      <div class="collapsible-content">
-        <!-- (Content remains unchanged) -->
-        <h3>🕸️ Internet Origins &amp; Growth</h3>
-        <ul>
-          <li><strong>1969–1991:</strong> ARPANET to commercial internet</li>
-          <li><strong>Usage Growth:</strong> 0.4% (1995) → 56.1% (2019)</li>
-        </ul>
-        <h3>🌐 Web Fundamentals</h3>
-        <ul>
-          <li><strong>WWW Invented (1989):</strong> By Tim Berners-Lee</li>
-          <li><strong>Core Tech:</strong> HTTP, HTML, URL</li>
-          <li><strong>Web Browsers:</strong> Mosaic, Netscape, IE</li>
-          <li><strong>Governance:</strong> IETF, ICANN, W3C</li>
-        </ul>
-        <h3>📏 Web Standards &amp; Accessibility</h3>
-        <ul>
-          <li><strong>WCAG Principles:</strong> Perceivable, Operable, Understandable, Robust</li>
-          <li><strong>Universal Design:</strong> For all users</li>
-        </ul>
-        <h3>☁️ Networks &amp; Cloud Computing</h3>
-        <ul>
-          <li><strong>Network Types:</strong> LAN, WAN, MAN, PAN</li>
-          <li><strong>Topologies:</strong> Bus, Star, Ring, Mesh</li>
-          <li><strong>Cloud:</strong> Scalable, remote access</li>
-        </ul>
-        <h3>🔗 Client-Server Architecture</h3>
-        <ul>
-          <li><strong>Client:</strong> Browser/mobile app</li>
-          <li><strong>Server Types:</strong> Web, DB, App, Mail</li>
-          <li><strong>Three-Tier Architecture:</strong> Presentation, Application, Data</li>
-        </ul>
-        <h3>📈 Application Development Evolution</h3>
-        <ul>
-          <li><strong>1940s–1950s:</strong> Machine code</li>
-          <li><strong>1960s:</strong> High-level languages (Fortran, COBOL)</li>
-          <li><strong>1980s:</strong> GUI, PCs</li>
-          <li><strong>1990s–2000s:</strong> Web, client-server</li>
-          <li><strong>Now:</strong> Mobile, cloud, AI, IoT</li>
-        </ul>
-        <h3>💡 Modern Web Development</h3>
-        <ul>
-          <li><strong>Trends:</strong> Microservices, serverless, PWAs</li>
-          <li><strong>Tools:</strong> HTML, CSS, JS, APIs</li>
-          <li><strong>Web Design Principles:</strong> Purpose, simplicity, consistency</li>
-        </ul>
-        <h3>🎨 Web Design Basics</h3>
-        <h4>🖥️ Web Components</h4>
-        <ul>
-          <li><strong>Web Page:</strong> HTML + CSS</li>
-          <li><strong>Website:</strong> Collection of pages</li>
-          <li><strong>Web Server:</strong> Hosts and delivers content</li>
-          <li><strong>Domain Structure:</strong> Subdomain + SLD + TLD</li>
-        </ul>
-        <h4>📐 Design Principles</h4>
-        <ul>
-          <li><strong>UI/UX:</strong> Navigation, accessibility, responsiveness</li>
-          <li><strong>Color Schemes:</strong> Monochromatic, Analogous, Complementary, etc.</li>
-          <li><strong>Wireframes:</strong> Low- to high-fidelity layouts</li>
-        </ul>
-        <h3>🌐 Web Protocols</h3>
-        <ul>
-          <li><strong>HTTP/HTTPS:</strong> Web communication</li>
-          <li><strong>FTP/SFTP:</strong> File transfer</li>
-          <li><strong>WebSocket:</strong> Real-time updates</li>
-          <li><strong>Email Protocols:</strong> SMTP, POP3, IMAP</li>
-          <li><strong>DNS:</strong> Translates domain to IP</li>
-          <li><strong>TCP/IP:</strong> Data routing</li>
-        </ul>
-        <h3>🧠 Human-Computer Interaction (HCI)</h3>
-        <h4>🧍‍♂️ Key Concepts</h4>
-        <ul>
-          <li>Focus on user needs and experience</li>
-          <li>Usability = Learnable, efficient, error-tolerant, satisfying</li>
-          <li>HCI matters for safety, efficiency, and business success</li>
-        </ul>
-        <h4>🧩 Design Approaches</h4>
-        <ul>
-          <li><strong>Traditional:</strong> Code-focused, high failure rate</li>
-          <li><strong>User-Centered:</strong> Iterative, feedback-driven design</li>
-        </ul>
-        <h4>♿ Usability &amp; Accessibility</h4>
-        <ul>
-          <li><strong>Usability:</strong> Easy and satisfying for all users</li>
-          <li><strong>Accessibility (WCAG POUR):</strong> For users with disabilities</li>
-          <li><strong>Tools:</strong> Screen readers, color contrast checkers, validators</li>
-        </ul>
-        <h4>⚖️ Legal &amp; Ethical Issues</h4>
-        <ul>
-          <li><strong>Laws:</strong> GDPR, CCPA, WCAG</li>
-          <li><strong>Ethical Practices:</strong> Privacy, security, inclusive design</li>
-          <li><strong>Avoid:</strong> AI bias, dark patterns, inaccessible content</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Section 2: Arrays Overview -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>📚 Arrays Overview</h2>
-        <span class="toggle-arrow">▼</span>
-      </div>
-      <div class="collapsible-content">
-        <!-- (Content remains unchanged) -->
-        <h3>🔹 What is an Array?</h3>
-        <ul>
-          <li>An array is a collection of elements stored in <strong>contiguous memory</strong></li>
-          <li>Example: <code>int[] numbers = {10, 20, 30, 40, 50};</code></li>
-        </ul>
-        <h3>✅ Advantages</h3>
-        <ul>
-          <li>Stores multiple values in one variable</li>
-          <li>Fast index access</li>
-          <li>Enhances readability and efficiency</li>
-        </ul>
-        <h3>⚠️ Limitations</h3>
-        <ul>
-          <li>Fixed in size once declared</li>
-          <li>Elements must be of the same data type</li>
-        </ul>
-        <h3>🛠️ Declaring &amp; Initializing Arrays</h3>
-        <pre><code>int[] arr = new int[5]; // Size-based initialization
+      
+      <!-- Section: Arrays Overview -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>📚 Arrays Overview</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>🔹 What is an Array?</h3>
+          <p>An array is a collection of elements stored in contiguous memory.</p>
+          <p>Example: <code>int[] numbers = {10, 20, 30, 40, 50};</code></p>
+          <h3>✅ Advantages</h3>
+          <ul>
+            <li>Stores multiple values in one variable</li>
+            <li>Fast index access</li>
+            <li>Enhances readability and efficiency</li>
+          </ul>
+          <h3>⚠️ Limitations</h3>
+          <ul>
+            <li>Fixed in size once declared</li>
+            <li>Elements must be of the same data type</li>
+          </ul>
+          <h3>🛠️ Declaring &amp; Initializing Arrays</h3>
+          <pre><code>int[] arr = new int[5]; // Size-based initialization
 int[] arr = {10, 20, 30};   // Direct initialization</code></pre>
-        <h3>🔁 Common Array Operations</h3>
-        <h4>📏 Get Array Length</h4>
-        <pre><code>int length = array.length;</code></pre>
-        <h4>🔁 Looping Through Arrays</h4>
-        <ul>
-          <li><strong>For Loop:</strong></li>
-        </ul>
-        <pre><code>for (int i = 0; i < array.length; i++) {
-  // Process array[i]
+          <h3>🔁 Common Array Operations</h3>
+          <h4>📏 Get Array Length</h4>
+          <pre><code>int length = array.length;</code></pre>
+          <h4>🔁 Looping Through Arrays</h4>
+          <p>For Loop:</p>
+          <pre><code>for (int i = 0; i < array.length; i++) {
+    // Process array[i]
 }</code></pre>
-        <ul>
-          <li><strong>Enhanced For Loop:</strong></li>
-        </ul>
-        <pre><code>for (int item : array) {
-  // Process item
+          <p>Enhanced For Loop:</p>
+          <pre><code>for (int item : array) {
+    // Process item
 }</code></pre>
-        <h4>🔍 Searching Example</h4>
-        <pre><code>for (int num : arr) {
-  if (num == key) {
-    found = true;
-    break;
-  }
+          <h4>🔍 Searching Example</h4>
+          <pre><code>for (int num : arr) {
+    if (num == key) {
+        found = true;
+        break;
+    }
 }</code></pre>
-        <h4>🔧 Arrays Utility Class</h4>
-        <pre><code>#include &lt;algorithm&gt;
+          <h4>🔧 Arrays Utility Class</h4>
+          <pre><code>#include &lt;algorithm&gt;
 std::sort(arr, arr + n);
-int pos = std::binary_search(arr, arr + n, key);
-</code></pre>
-        <h4>🔢 2D Arrays (Multidimensional)</h4>
-        <pre><code>int matrix[2][3] = {
-  {1, 2, 3},
-  {4, 5, 6}
+int pos = std::binary_search(arr, arr + n, key);</code></pre>
+          <h4>🔢 2D Arrays (Multidimensional)</h4>
+          <pre><code>int matrix[2][3] = {
+    {1, 2, 3},
+    {4, 5, 6}
 };
 
 // Access:
@@ -180,388 +152,607 @@ int value = matrix[1][2]; // value is 6
 
 // Traversing:
 for (int i = 0; i < 2; i++) {
-  for (int j = 0; j < 3; j++) {
-    std::cout << matrix[i][j] << " ";
-  }
-  std::cout << std::endl;
-}
-</code></pre>
-        <h4>🧪 Lab Activities</h4>
-        <ul>
-          <li>Sum of Array Elements</li>
-          <li>Find Maximum and Minimum in an Array</li>
-          <li>Matrix Addition (2D Arrays)</li>
-        </ul>
+    for (int j = 0; j < 3; j++) {
+        std::cout << matrix[i][j] << " ";
+    }
+    std::cout << std::endl;
+}</code></pre>
+          <h4>🧪 Lab Activities</h4>
+          <ul>
+            <li>Sum of Array Elements</li>
+            <li>Find Maximum and Minimum in an Array</li>
+            <li>Matrix Addition (2D Arrays)</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <!-- Section 3: Java String Classes &amp; Methods Summary -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>📚 Java String Classes &amp; Methods Summary</h2>
-        <span class="toggle-arrow">▼</span>
-      </div>
-      <div class="collapsible-content">
-        <!-- (Content remains unchanged) -->
-        <h3>🧵 What is a String?</h3>
-        <ul>
-          <li><strong>String:</strong> A class in <code>java.lang</code> representing a sequence of characters</li>
-          <li>Strings are <strong>immutable</strong> and stored in a shared pool</li>
-          <li>Example: <code>String name = "Alice";</code></li>
-        </ul>
-        <h3>🛠️ Creating Strings</h3>
-        <pre><code>String s1 = "Java"; // Using literal
+      
+      <!-- Section: Java String Classes &amp; Methods Summary -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>📚 Java String Classes &amp; Methods Summary</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>🧵 What is a String?</h3>
+          <p>String: A class in <code>java.lang</code> representing a sequence of characters.</p>
+          <p>Strings are immutable and stored in a shared pool.</p>
+          <p>Example: <code>String name = "Alice";</code></p>
+          <h3>🛠️ Creating Strings</h3>
+          <pre><code>String s1 = "Java"; // Using literal
 String s2 = new String("Hello");</code></pre>
-        <h3>🔄 Immutability Example</h3>
-        <pre><code>String s = "Java";
+          <h3>🔄 Immutability Example</h3>
+          <pre><code>String s = "Java";
 s.concat(" Programming");  // s remains unchanged
-std::cout << s;     // Outputs: Java</code></pre>
-        <h3>✨ Common String Methods</h3>
-        <pre><code>String name = "  Java Programming  ";
+System.out.println(s);     // Outputs: Java</code></pre>
+          <h3>✨ Common String Methods</h3>
+          <pre><code>String name = "  Java Programming  ";
 name.length();
 name.charAt(2);
 name.toUpperCase();
 name.toLowerCase();
 name.trim();
 name.concat(" Rocks");</code></pre>
-        <h3>⚖️ String Comparison</h3>
-        <ul>
-          <li><code>==</code> checks reference equality</li>
-          <li><code>.equals()</code> checks content equality</li>
-          <li><code>.equalsIgnoreCase()</code> compares strings ignoring case</li>
-          <li><code>.compareTo()</code> performs lexical comparison</li>
-        </ul>
-        <h3>🔍 Searching &amp; Substrings</h3>
-        <pre><code>sentence.indexOf("Java");
+          <h3>⚖️ String Comparison</h3>
+          <ul>
+            <li><code>==</code> checks reference equality</li>
+            <li><code>.equals()</code> checks content equality</li>
+            <li><code>.equalsIgnoreCase()</code> compares strings ignoring case</li>
+            <li><code>.compareTo()</code> performs lexical comparison</li>
+          </ul>
+          <h3>🔍 Searching &amp; Substrings</h3>
+          <pre><code>sentence.indexOf("Java");
 sentence.lastIndexOf('a');
 sentence.substring(11);
 sentence.contains("to");</code></pre>
-        <h3>🔁 Replacing &amp; Splitting</h3>
-        <pre><code>data.replace("banana", "orange");
+          <h3>🔁 Replacing &amp; Splitting</h3>
+          <pre><code>data.replace("banana", "orange");
 data.split(","); // Returns an array</code></pre>
-        <h3>🔧 StringBuilder</h3>
-        <ul>
-          <li>Mutable alternative for frequent changes</li>
-          <li>Not thread-safe</li>
-        </ul>
-        <pre><code>StringBuilder sb = new StringBuilder("Hello");
+          <h3>🔧 StringBuilder</h3>
+          <p>Mutable alternative for frequent changes. Not thread-safe.</p>
+          <pre><code>StringBuilder sb = new StringBuilder("Hello");
 sb.append(" Java");
-std::cout << sb; // Outputs: Hello Java</code></pre>
-        <h4>🧪 Lab Activities</h4>
-        <ul>
-          <li>Count vowels in a sentence</li>
-          <li>Reverse a string using a loop</li>
-          <li>Check if a string is a palindrome</li>
-          <li>Convert name to uppercase and verify if it contains “Admin”</li>
-        </ul>
+System.out.println(sb); // Outputs: Hello Java</code></pre>
+          <h4>🧪 Lab Activities</h4>
+          <ul>
+            <li>Count vowels in a sentence</li>
+            <li>Reverse a string using a loop</li>
+            <li>Check if a string is a palindrome</li>
+            <li>Convert name to uppercase and verify if it contains “Admin”</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <!-- Section 4: Introduction to CSS (Cascading Style Sheets) -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>🎨 Introduction to CSS (Cascading Style Sheets)</h2>
-        <span class="toggle-arrow">▼</span>
-      </div>
-      <div class="collapsible-content">
-        <!-- (Content remains unchanged) -->
-        <h3>📌 Purpose</h3>
-        <ul>
-          <li>Defines <strong>how HTML elements are displayed</strong> on screen</li>
-          <li>Separates <strong>content (HTML)</strong> from <strong>presentation (CSS)</strong></li>
-        </ul>
-        <h3>🧱 CSS Syntax</h3>
-        <pre><code>selector {
+      
+      <!-- Section: Introduction to CSS (Cascading Style Sheets) -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>🎨 Introduction to CSS (Cascading Style Sheets)</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>📌 Purpose</h3>
+          <ul>
+            <li>Defines how HTML elements are displayed on screen</li>
+            <li>Separates content (HTML) from presentation (CSS)</li>
+          </ul>
+          <h3>🧱 CSS Syntax</h3>
+          <pre><code>selector {
   property: value;
 }</code></pre>
-        <ul>
-          <li><strong>Selector:</strong> The HTML element to style</li>
-          <li><strong>Property:</strong> The style attribute to change (e.g., color)</li>
-          <li><strong>Value:</strong> The value for the style (e.g., red)</li>
-        </ul>
-        <h3>📐 Length Units in CSS</h3>
-        <ul>
-          <li><strong>Relative:</strong> <code>em</code>, <code>rem</code>, <code>%</code>, <code>vw</code>, <code>vh</code></li>
-          <li><strong>Absolute:</strong> <code>px</code>, <code>pt</code>, <code>cm</code>, <code>mm</code>, <code>in</code></li>
-          <li><strong>Percentage:</strong> Relative to parent element size</li>
-        </ul>
-        <h3>📦 Types of Style Sheets</h3>
-        <table>
-          <tr>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-          <tr>
-            <td><strong>Inline</strong></td>
-            <td>Inside an HTML tag via the <code>style</code> attribute</td>
-          </tr>
-          <tr>
-            <td><strong>Internal</strong></td>
-            <td>Within a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section</td>
-          </tr>
-          <tr>
-            <td><strong>External</strong></td>
-            <td>A separate <code>.css</code> file linked via <code>&lt;link&gt;</code></td>
-          </tr>
-        </table>
-        <h3>🔍 CSS Selectors</h3>
-        <table>
-          <tr>
-            <th>Type</th>
-            <th>Syntax</th>
-            <th>Purpose</th>
-          </tr>
-          <tr>
-            <td><strong>Type</strong></td>
-            <td><code>p</code>, <code>h1</code>, etc.</td>
-            <td>Targets all elements of that type</td>
-          </tr>
-          <tr>
-            <td><strong>Class</strong></td>
-            <td><code>.classname</code></td>
-            <td>Reusable styling for multiple elements</td>
-          </tr>
-          <tr>
-            <td><strong>ID</strong></td>
-            <td><code>#idname</code></td>
-            <td>Unique styling for a single element</td>
-          </tr>
-          <tr>
-            <td><strong>Universal</strong></td>
-            <td><code>*</code></td>
-            <td>Targets all elements</td>
-          </tr>
-        </table>
-        <h3>🧭 Cascading Order (Priority)</h3>
-        <ol>
-          <li>Inline Styles</li>
-          <li>Internal Styles</li>
-          <li>External Styles</li>
-          <li>Browser Defaults</li>
-        </ol>
-        <p>Within these, <strong>ID &gt; Class &gt; Type</strong></p>
-        <h3>💬 Comments in CSS</h3>
-        <pre><code>/* This is a comment */</code></pre>
-        <h3>🧪 Pseudo Classes</h3>
-        <ul>
-          <li>Target element states (e.g., <code>:hover</code>, <code>:visited</code>, <code>:active</code>)</li>
-        </ul>
-        <pre><code>a:link { color: white; }
+          <ul>
+            <li><strong>Selector:</strong> The HTML element to style</li>
+            <li><strong>Property:</strong> The style attribute to change (e.g., color)</li>
+            <li><strong>Value:</strong> The value for the style (e.g., red)</li>
+          </ul>
+          <h3>📐 Length Units in CSS</h3>
+          <ul>
+            <li>Relative: em, rem, %, vw, vh</li>
+            <li>Absolute: px, pt, cm, mm, in</li>
+            <li>Percentage: Relative to parent element size</li>
+          </ul>
+          <h3>📦 Types of Style Sheets</h3>
+          <table>
+            <tr>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td><strong>Inline</strong></td>
+              <td>Inside an HTML tag via the style attribute</td>
+            </tr>
+            <tr>
+              <td><strong>Internal</strong></td>
+              <td>Within a &lt;style&gt; tag in the &lt;head&gt; section</td>
+            </tr>
+            <tr>
+              <td><strong>External</strong></td>
+              <td>A separate .css file linked via &lt;link&gt;</td>
+            </tr>
+          </table>
+          <h3>🔍 CSS Selectors</h3>
+          <table>
+            <tr>
+              <th>Type</th>
+              <th>Syntax</th>
+              <th>Purpose</th>
+            </tr>
+            <tr>
+              <td><strong>Type</strong></td>
+              <td>p, h1, etc.</td>
+              <td>Targets all elements of that type</td>
+            </tr>
+            <tr>
+              <td><strong>Class</strong></td>
+              <td>.classname</td>
+              <td>Reusable styling for multiple elements</td>
+            </tr>
+            <tr>
+              <td><strong>ID</strong></td>
+              <td>#idname</td>
+              <td>Unique styling for a single element</td>
+            </tr>
+            <tr>
+              <td><strong>Universal</strong></td>
+              <td>*</td>
+              <td>Targets all elements</td>
+            </tr>
+          </table>
+          <h3>🧭 Cascading Order (Priority)</h3>
+          <ol>
+            <li>Inline Styles</li>
+            <li>Internal Styles</li>
+            <li>External Styles</li>
+            <li>Browser Defaults</li>
+          </ol>
+          <p>Within these, ID &gt; Class &gt; Type</p>
+          <h3>💬 Comments in CSS</h3>
+          <pre><code>/* This is a comment */</code></pre>
+          <h3>🧪 Pseudo Classes</h3>
+          <ul>
+            <li>Target element states (e.g., :hover, :visited, :active)</li>
+          </ul>
+          <pre><code>a:link { color: white; }
 a:visited { color: brown; }
 a:hover { background-color: white; }</code></pre>
-        <h3>✨ Pseudo Elements</h3>
-        <ul>
-          <li>Target specific parts of an element (e.g., <code>::first-line</code>, <code>::first-letter</code>)</li>
-        </ul>
-        <pre><code>p::first-line {
+          <h3>✨ Pseudo Elements</h3>
+          <ul>
+            <li>Target specific parts of an element (e.g., ::first-line, ::first-letter)</li>
+          </ul>
+          <pre><code>p::first-line {
   font-weight: bold;
 }
 p::first-letter {
   font-size: xx-large;
 }</code></pre>
-        <h3>🔗 Styling Hyperlinks</h3>
-        <ul>
-          <li>Can be styled globally, within containers, or via classes</li>
-          <li>Utilize pseudo classes for different states</li>
-        </ul>
-        <h3>📚 CSS Summary</h3>
-        <ul>
-          <li>CSS is essential for visually enhancing web content</li>
-          <li>Different selectors and stylesheets allow versatile control</li>
-          <li>Pseudo classes and elements enable dynamic, state-based styling</li>
-        </ul>
+          <h3>🔗 Styling Hyperlinks</h3>
+          <ul>
+            <li>Can be styled globally, within containers, or via classes</li>
+            <li>Utilize pseudo classes for different states</li>
+          </ul>
+          <h3>📚 CSS Summary</h3>
+          <ul>
+            <li>CSS is essential for visually enhancing web content</li>
+            <li>Different selectors and stylesheets allow versatile control</li>
+            <li>Pseudo classes and elements enable dynamic, state-based styling</li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <!-- Section 5: Searching &amp; Sorting Algorithms -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>🔍 Searching &amp; Sorting Algorithms</h2>
-        <span class="toggle-arrow">▼</span>
+      
+      <!-- Section: Searching & Sorting Algorithms -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>🔍 Searching &amp; Sorting Algorithms</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>Searching Algorithms</h3>
+          <h4>1. Linear Search</h4>
+          <ul>
+            <li><strong>Concept:</strong> Sequentially checks each element</li>
+            <li><strong>Time Complexity:</strong> Best: O(1), Worst/Average: O(n)</li>
+          </ul>
+          <pre><code>for (int i = 0; i < arr.length; i++) {
+    if (arr[i] == key) return i;
+}</code></pre>
+          <h4>2. Binary Search</h4>
+          <ul>
+            <li><strong>Concept:</strong> Divide and conquer (for sorted arrays only)</li>
+            <li><strong>Time Complexity:</strong> Best: O(1), Worst/Average: O(log n)</li>
+          </ul>
+          <pre><code>while (low <= high) {
+    int mid = (low + high) / 2;
+    if (arr[mid] == key)
+        return mid;
+    else if (arr[mid] < key)
+        low = mid + 1;
+    else
+        high = mid - 1;
+}</code></pre>
+          <h3>⏱ Big O Notation (Time Complexity)</h3>
+          <table>
+            <tr>
+              <th>Complexity</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+            <tr>
+              <td>O(1)</td>
+              <td>Constant time</td>
+              <td>Accessing an element</td>
+            </tr>
+            <tr>
+              <td>O(log n)</td>
+              <td>Logarithmic time</td>
+              <td>Binary search</td>
+            </tr>
+            <tr>
+              <td>O(n)</td>
+              <td>Linear time</td>
+              <td>Linear search</td>
+            </tr>
+            <tr>
+              <td>O(n²)</td>
+              <td>Quadratic time</td>
+              <td>Bubble sort</td>
+            </tr>
+            <tr>
+              <td>O(n log n)</td>
+              <td>Efficient for large datasets</td>
+              <td>Quick sort</td>
+            </tr>
+          </table>
+          <h3>Sorting Algorithms</h3>
+          <h4>1. Bubble Sort</h4>
+          <ul>
+            <li>Compares and swaps adjacent elements</li>
+            <li><strong>Complexity:</strong> O(n²)</li>
+          </ul>
+          <pre><code>for (i = 0; i < n - 1; i++)
+    for (j = 0; j < n - i - 1; j++)
+        if (arr[j] > arr[j+1])
+            swap(arr[j], arr[j+1]);</code></pre>
+          <h4>2. Insertion Sort</h4>
+          <ul>
+            <li>Builds a sorted array one element at a time</li>
+            <li><strong>Complexity:</strong> O(n²)</li>
+          </ul>
+          <pre><code>for (i = 1; i < n; i++) {
+    key = arr[i];
+    j = i - 1;
+    while (j >= 0 && arr[j] > key)
+        arr[j+1] = arr[j--];
+    arr[j+1] = key;
+}</code></pre>
+          <h4>3. Selection Sort</h4>
+          <ul>
+            <li>Repeatedly finds the smallest element and moves it to the sorted portion</li>
+            <li><strong>Complexity:</strong> O(n²)</li>
+          </ul>
+          <pre><code>for (i = 0; i < n - 1; i++) {
+    min = i;
+    for (j = i + 1; j < n; j++)
+        if (arr[j] < arr[min])
+            min = j;
+    swap(arr[min], arr[i]);
+}</code></pre>
+          <h3>🧠 Key Concepts</h3>
+          <ul>
+            <li>Use Linear Search for unsorted arrays</li>
+            <li>Use Binary Search for sorted arrays</li>
+            <li>Understand the trade-offs in efficiency and simplicity for sorting algorithms</li>
+          </ul>
+        </div>
       </div>
-      <div class="collapsible-content">
-        <!-- (Content remains unchanged) -->
-        <h3>Searching Algorithms</h3>
-        <h4>1. Linear Search</h4>
-        <ul>
-          <li><strong>Concept:</strong> Sequentially checks each element</li>
-          <li><strong>Time Complexity:</strong> Best: O(1), Worst/Average: O(n)</li>
-        </ul>
-        <pre><code>for (int i = 0; i < arr.length; i++) {
-  if (arr[i] == key) return i;
-}</code></pre>
-        <h4>2. Binary Search</h4>
-        <ul>
-          <li><strong>Concept:</strong> Divide and conquer (for sorted arrays only)</li>
-          <li><strong>Time Complexity:</strong> Best: O(1), Worst/Average: O(log n)</li>
-        </ul>
-        <pre><code>while (low <= high) {
-  int mid = (low + high) / 2;
-  if (arr[mid] == key)
-    return mid;
-  else if (arr[mid] < key)
-    low = mid + 1;
-  else
-    high = mid - 1;
-}</code></pre>
-        <h3>⏱ Big O Notation (Time Complexity)</h3>
-        <table>
-          <tr>
-            <th>Complexity</th>
-            <th>Description</th>
-            <th>Example</th>
-          </tr>
-          <tr>
-            <td>O(1)</td>
-            <td>Constant time</td>
-            <td>Accessing an element</td>
-          </tr>
-          <tr>
-            <td>O(log n)</td>
-            <td>Logarithmic time</td>
-            <td>Binary search</td>
-          </tr>
-          <tr>
-            <td>O(n)</td>
-            <td>Linear time</td>
-            <td>Linear search</td>
-          </tr>
-          <tr>
-            <td>O(n²)</td>
-            <td>Quadratic time</td>
-            <td>Bubble sort</td>
-          </tr>
-          <tr>
-            <td>O(n log n)</td>
-            <td>Efficient for large datasets</td>
-            <td>Quick sort</td>
-          </tr>
-        </table>
-        <h3>Sorting Algorithms</h3>
-        <h4>1. Bubble Sort</h4>
-        <ul>
-          <li>Compares and swaps adjacent elements</li>
-          <li><strong>Complexity:</strong> O(n²)</li>
-        </ul>
-        <pre><code>for (i = 0; i < n - 1; i++)
-  for (j = 0; j < n - i - 1; j++)
-    if (arr[j] > arr[j+1])
-      swap(arr[j], arr[j+1]);</code></pre>
-        <h4>2. Insertion Sort</h4>
-        <ul>
-          <li>Builds a sorted array one element at a time</li>
-          <li><strong>Complexity:</strong> O(n²)</li>
-        </ul>
-        <pre><code>for (i = 1; i < n; i++) {
-  key = arr[i];
-  j = i - 1;
-  while (j >= 0 && arr[j] > key)
-    arr[j+1] = arr[j--];
-  arr[j+1] = key;
-}</code></pre>
-        <h4>3. Selection Sort</h4>
-        <ul>
-          <li>Repeatedly finds the smallest element and moves it to the sorted portion</li>
-          <li><strong>Complexity:</strong> O(n²)</li>
-        </ul>
-        <pre><code>for (i = 0; i < n - 1; i++) {
-  min = i;
-  for (j = i + 1; j < n; j++)
-    if (arr[j] < arr[min])
-      min = j;
-  swap(arr[min], arr[i]);
-}</code></pre>
-        <h3>🧠 Key Concepts</h3>
-        <ul>
-          <li>Use Linear Search for unsorted arrays</li>
-          <li>Use Binary Search for sorted arrays</li>
-          <li>Understand the trade-offs in efficiency and simplicity for sorting algorithms</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Section 6: Python from Beginner to Expert – Explained Clearly with Structure -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>🐍 Python from Beginner to Expert – Explained Clearly with Structure</h2>
-        <span class="toggle-arrow">▼</span>
-      </div>
-      <div class="collapsible-content">
-        <!-- (Python content similar to previous Python section) -->
-        <h3>SECTION 1: BEGINNER LEVEL</h3>
-        <h4>1. Introduction to Python</h4>
-        <p><strong>Python</strong> is a high-level, easy-to-read programming language used for:</p>
-        <ul>
-          <li>Web development</li>
-          <li>Automation</li>
-          <li>Data science</li>
-          <li>AI &amp; machine learning</li>
-        </ul>
-        <p><strong>Key Features:</strong></p>
-        <ul>
-          <li>Easy syntax</li>
-          <li>Huge community</li>
-          <li>Many libraries</li>
-        </ul>
-        <h4>2. Python Syntax</h4>
-        <p><strong>Syntax</strong> means the rules you follow when writing code.</p>
-        <h5>Basic Elements</h5>
-        <ul>
-          <li>Statements run line-by-line.</li>
-          <li>Indentation matters (use 4 spaces).</li>
-          <li>Comments start with <code>#</code> and don’t run.</li>
-        </ul>
-        <pre><code># This is a comment
+      
+      <!-- Section: Python from Beginner to Expert -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>🐍 Python from Beginner to Expert – Explained Clearly with Structure</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>SECTION 1: BEGINNER LEVEL</h3>
+          
+          <h4>1. Introduction to Python</h4>
+          <p>Python is a high-level, easy-to-read programming language used for:</p>
+          <ul>
+            <li>Web development</li>
+            <li>Automation</li>
+            <li>Data science</li>
+            <li>AI &amp; machine learning</li>
+          </ul>
+          <p><strong>Key Features:</strong></p>
+          <ul>
+            <li>Easy syntax</li>
+            <li>Huge community</li>
+            <li>Many libraries</li>
+          </ul>
+          
+          <h4>2. Python Syntax</h4>
+          <p>Syntax means the rules you follow when writing code.</p>
+          <h5>Basic Elements</h5>
+          <ul>
+            <li>Statements run line-by-line.</li>
+            <li>Indentation matters (use 4 spaces).</li>
+            <li>Comments start with <code>#</code> and don’t run.</li>
+          </ul>
+          <pre><code># This is a comment
 print("Hello")  # This will show text</code></pre>
-        <!-- (Additional Python content continues similarly…) -->
-      </div>
-    </div>
+          
+          <h4>3. Variables</h4>
+          <p>Variable = a name that stores a value.</p>
+          <pre><code>name = "Seng"
+age = 17</code></pre>
+          <p>Use lowercase and <code>_</code> in names. Python automatically determines the variable type.</p>
+          
+          <h4>4. Data Types</h4>
+          <p>Data type = the kind of data a variable holds.</p>
+          <table>
+            <tr>
+              <th>Type</th>
+              <th>Example</th>
+              <th>Use</th>
+            </tr>
+            <tr>
+              <td><code>int</code></td>
+              <td>10</td>
+              <td>Whole numbers</td>
+            </tr>
+            <tr>
+              <td><code>float</code></td>
+              <td>3.14</td>
+              <td>Decimal numbers</td>
+            </tr>
+            <tr>
+              <td><code>str</code></td>
+              <td>"hello"</td>
+              <td>Text</td>
+            </tr>
+            <tr>
+              <td><code>bool</code></td>
+              <td>True, False</td>
+              <td>True/false values</td>
+            </tr>
+            <tr>
+              <td><code>None</code></td>
+              <td>None</td>
+              <td>No value</td>
+            </tr>
+          </table>
+          <pre><code>x = 10
+name = "Seng"
+is_alive = True</code></pre>
+          <p>Check the type:</p>
+          <pre><code>print(type(x))</code></pre>
+          
+          <h4>5. Operators</h4>
+          <p>Operators = symbols that perform actions like math or logic.</p>
+          <h5>Arithmetic Operators</h5>
+          <pre><code>+  # Add
+-  # Subtract
+*  # Multiply
+/  # Divide
+%  # Modulo (remainder)
+** # Power
+// # Floor division</code></pre>
+          <h5>Comparison Operators</h5>
+          <pre><code>==  # Equal
+!=  # Not equal
+>   # Greater than
+<   # Less than
+>=  # Greater or equal
+<=  # Less or equal</code></pre>
+          <h5>Logical Operators</h5>
+          <pre><code>and  # Both conditions true
+or   # At least one true
+not  # Reverse the result</code></pre>
+          
+          <h4>6. Conditions &amp; If Statements</h4>
+          <p>Conditional statements make your program behave differently based on data.</p>
+          <pre><code>age = 17
 
-    <!-- Section 7: C++ Guide: Beginner to Expert -->
-    <div class="collapsible">
-      <div class="collapsible-header">
-        <h2>💻 C++ Guide: Beginner to Expert</h2>
-        <span class="toggle-arrow">▼</span>
+if age < 13:
+    print("Child")
+elif age < 18:
+    print("Teen")
+else:
+    print("Adult")</code></pre>
+          <p>Structure: <code>if</code> handles the first condition, <code>elif</code> specifies additional cases, and <code>else</code> catches all other situations.</p>
+          
+          <h4>7. Loops</h4>
+          <p>Loops let you repeat code.</p>
+          <h5>For Loop</h5>
+          <p>Used when the number of iterations is known.</p>
+          <pre><code>for i in range(3):
+    print(i)</code></pre>
+          <h5>While Loop</h5>
+          <p>Used when repeating until a condition becomes false.</p>
+          <pre><code>count = 0
+while count < 3:
+    print(count)
+    count += 1</code></pre>
+          
+          <h4>8. break and continue</h4>
+          <h5>break</h5>
+          <p>Exits the loop early.</p>
+          <pre><code>for i in range(5):
+    if i == 3:
+        break
+    print(i)  # prints 0,1,2</code></pre>
+          <h5>continue</h5>
+          <p>Skips the rest of the current iteration and continues with the next.</p>
+          <pre><code>for i in range(5):
+    if i == 3:
+        continue
+    print(i)  # prints 0,1,2,4</code></pre>
+          
+          <h4>9. Collections (Data Structures)</h4>
+          <h5>List (ordered, mutable)</h5>
+          <pre><code>fruits = ["apple", "banana"]
+fruits.append("mango")
+print(fruits[0])  # apple</code></pre>
+          <h5>Dictionary (key-value pairs)</h5>
+          <pre><code>person = {"name": "Seng", "age": 17}
+print(person["name"])  # Seng</code></pre>
+          <h5>Set (unique, unordered)</h5>
+          <pre><code>colors = {"red", "blue", "red"}  # Result: {'red', 'blue'}</code></pre>
+          <h5>Tuple (ordered, immutable)</h5>
+          <pre><code>point = (3, 4)</code></pre>
+          
+          <h4>10. Functions</h4>
+          <p>Function = a named block of code that can be reused.</p>
+          <pre><code>def greet(name):
+    print("Hello", name)
+
+greet("Seng")</code></pre>
+          <h5>With Return</h5>
+          <pre><code>def add(a, b):
+    return a + b
+
+print(add(2, 3))  # 5</code></pre>
+          
+          <h4>11. Input / Output</h4>
+          <pre><code>name = input("Enter your name: ")
+print("Hello", name)</code></pre>
+          
+          <h4>12. Code Structure (Clean Coding)</h4>
+          <ul>
+            <li>Top to bottom flow: Start with imports, then functions, then the main logic.</li>
+            <li>Use functions: To avoid code repetition.</li>
+            <li>Use the main block:</li>
+          </ul>
+          <pre><code>def main():
+    print("This is the main function.")
+
+if __name__ == "__main__":
+    main()</code></pre>
+          
+          <h3>SECTION 2: INTERMEDIATE LEVEL</h3>
+          <h4>1. String Methods</h4>
+          <pre><code>text = " Hello ".strip().upper()
+print(text)  # HELLO</code></pre>
+          <h4>2. List Comprehension</h4>
+          <pre><code>squares = [x*x for x in range(5)]</code></pre>
+          <h4>3. File Handling</h4>
+          <pre><code>with open("file.txt", "r") as f:
+    content = f.read()</code></pre>
+          <h4>4. Error Handling</h4>
+          <pre><code>try:
+    print(10 / 0)
+except ZeroDivisionError:
+    print("Can't divide by zero")</code></pre>
+          <h4>5. Lambda Functions</h4>
+          <pre><code>add = lambda x, y: x + y</code></pre>
+          <h4>6. Modules</h4>
+          <pre><code>import math
+print(math.sqrt(16))</code></pre>
+          
+          <h3>SECTION 3: EXPERT LEVEL</h3>
+          <h4>1. Object-Oriented Programming (OOP)</h4>
+          <pre><code>class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(self.name + " makes a sound")
+
+cat = Animal("Kitty")
+cat.speak()</code></pre>
+          <p>Concepts:</p>
+          <ul>
+            <li>Class = blueprint</li>
+            <li>Object = instance</li>
+            <li><code>__init__</code> = constructor</li>
+            <li><code>self</code> refers to the current object</li>
+          </ul>
+          <h4>2. Decorators</h4>
+          <pre><code>def wrapper(func):
+    def inner():
+        print("Before")
+        func()
+        print("After")
+    return inner
+
+@wrapper
+def hello():
+    print("Hi!")
+
+hello()</code></pre>
+          <h4>3. Generators</h4>
+          <pre><code>def count_up():
+    yield 1
+    yield 2
+
+for num in count_up():
+    print(num)</code></pre>
+          <h4>4. Working with APIs</h4>
+          <pre><code>import requests
+response = requests.get("https://api.example.com")
+print(response.json())</code></pre>
+          <h4>5. Testing</h4>
+          <pre><code>import unittest
+
+def add(x, y):
+    return x + y
+
+class TestMath(unittest.TestCase):
+    def test_add(self):
+        self.assertEqual(add(2, 3), 5)</code></pre>
+          <h4>6. Project Structure Example</h4>
+          <pre><code>my_project/
+│
+├── main.py
+├── modules/
+│   └── helpers.py
+├── data/
+│   └── input.csv
+├── tests/
+    └── test_main.py</code></pre>
+          <p>Use folders to keep code organized and easy to manage.</p>
+        </div>
       </div>
-      <div class="collapsible-content">
-        <!-- 1. Beginner Level -->
-        <h3>1. Beginner Level</h3>
-        <h4>a. Environment Setup and Basic Syntax</h4>
-        <ul>
-          <li>
-            <strong>Installing a Compiler and IDE:</strong>
-            <ul>
-              <li><em>Compiler Options:</em> GCC, Clang, MSVC</li>
-              <li><em>IDE Choices:</em> Visual Studio, Code::Blocks, CLion, or lightweight editors such as Visual Studio Code with C++ extensions</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Hello World Program:</strong>
-            <pre><code>#include &lt;iostream&gt;
+      
+      <!-- Section: C++ Guide: Beginner to Expert -->
+      <div class="collapsible">
+        <div class="collapsible-header" tabindex="0" role="button" aria-expanded="false">
+          <h2>💻 C++ Guide: Beginner to Expert</h2>
+          <span class="toggle-arrow" aria-hidden="true">▼</span>
+        </div>
+        <div class="collapsible-content">
+          <h3>1. Beginner Level</h3>
+          <h4>a. Environment Setup and Basic Syntax</h4>
+          <p><strong>Installing a Compiler and IDE:</strong></p>
+          <p>
+            Compiler Options: GCC, Clang, MSVC<br>
+            IDE Choices: Visual Studio, Code::Blocks, CLion, or lightweight editors such as Visual Studio Code with C++ extensions
+          </p>
+          <p><strong>Hello World Program:</strong></p>
+          <pre><code>#include &lt;iostream&gt;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }</code></pre>
-          </li>
-          <li>
-            <strong>Compiling From Command-Line:</strong>
-            <pre><code>g++ -std=c++17 -o hello hello.cpp
+          <p><strong>Compiling From Command-Line:</strong></p>
+          <pre><code>g++ -std=c++17 -o hello hello.cpp
 ./hello</code></pre>
-            <p>This command instructs the compiler to use the C++17 standard, output an executable named <code>hello</code>, and compile the source file <code>hello.cpp</code>—then the executable is run by entering <code>./hello</code>.</p>
-          </li>
-        </ul>
-        <h4>b. Basic Language Constructs</h4>
-        <ul>
-          <li><strong>Variables and Data Types:</strong> Learn about primitive types such as <code>int</code>, <code>float</code>, <code>double</code>, <code>char</code>, and <code>bool</code> to store numbers, characters, and boolean values.</li>
-          <li><strong>Operators:</strong> Arithmetic (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>), relational (<code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, etc.), and logical (<code>&amp;&amp;</code>, <code>||</code>, <code>!</code>) operators allow you to perform calculations and make decisions.</li>
-          <li><strong>Control Structures:</strong> Using <code>if</code> statements for conditionals and loops like <code>for</code>, <code>while</code>, and <code>do-while</code> to repeat actions enables your program to automate tasks.</li>
-        </ul>
-        <h4>c. Structures, Unions, and Enumerations</h4>
-        <ul>
-          <li>
-            <strong>Structures:</strong> Group related data together.
-            <pre><code>struct Point {
+          <p>
+            This command instructs the compiler to use the C++17 standard, output an executable named hello, and compile the source file <code>hello.cpp</code>—then run the executable by entering <code>./hello</code>.
+          </p>
+          
+          <h4>b. Basic Language Constructs</h4>
+          <p>
+            Variables and Data Types: Learn about primitive types such as <code>int</code>, <code>float</code>, <code>double</code>, <code>char</code>, and <code>bool</code> to store numbers, characters, and boolean values.
+          </p>
+          <p>
+            Operators: Arithmetic (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>), relational (<code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, etc.), and logical (<code>&amp;&amp;</code>, <code>||</code>, <code>!</code>) operators allow you to perform calculations and make decisions.
+          </p>
+          <p>
+            Control Structures: Using <code>if</code> statements for conditionals and loops like <code>for</code>, <code>while</code>, and <code>do-while</code> to repeat actions enables your program to automate tasks.
+          </p>
+          
+          <h4>c. Structures, Unions, and Enumerations</h4>
+          <p><strong>Structures:</strong> Group related data together.</p>
+          <pre><code>struct Point {
     int x;
     int y;
 };
@@ -571,10 +762,8 @@ int main() {
     std::cout << "x: " << p.x << ", y: " << p.y << std::endl;
     return 0;
 }</code></pre>
-          </li>
-          <li>
-            <strong>Unions:</strong> Save memory by sharing the same location for different members.
-            <pre><code>union Data {
+          <p><strong>Unions:</strong> Save memory by sharing the same location for different members.</p>
+          <pre><code>union Data {
     int i;
     float f;
     char str[20];
@@ -586,21 +775,16 @@ int main() {
     std::cout << "data.i: " << data.i << std::endl;
     return 0;
 }</code></pre>
-          </li>
-          <li>
-            <strong>Enumerations:</strong> Define named integral constants.
-            <pre><code>enum Color { RED, GREEN, BLUE };
+          <p><strong>Enumerations:</strong> Define named integral constants.</p>
+          <pre><code>enum Color { RED, GREEN, BLUE };
 Color myColor = RED;</code></pre>
-          </li>
-        </ul>
-        <h4>d. Additional Essentials</h4>
-        <ul>
-          <li>
-            <strong>Arrays and Strings:</strong> Arrays store multiple elements of the same type (e.g., <code>int arr[5] = {1,2,3,4,5};</code>), and <code>std::string</code> (with <code>&lt;string&gt;</code>) handles text.
-          </li>
-          <li>
-            <strong>Input/Output Basics:</strong>
-            <pre><code>#include &lt;iostream&gt;
+          
+          <h4>d. Additional Essentials</h4>
+          <p>
+            Arrays and Strings: Arrays store multiple elements of the same type (e.g., <code>int arr[5] = {1,2,3,4,5};</code>), and <code>std::string</code> (with <code>&lt;string&gt;</code>) handles text.
+          </p>
+          <p><strong>Input/Output Basics:</strong></p>
+          <pre><code>#include &lt;iostream&gt;
 #include &lt;string&gt;
 
 int main() {
@@ -610,62 +794,49 @@ int main() {
     std::cout << "Your age is " << age << std::endl;
     return 0;
 }</code></pre>
-          </li>
-        </ul>
-        <h4>e. Recommended Resources and Mini Projects</h4>
-        <ul>
-          <li><strong>Books:</strong> "Programming: Principles and Practice Using C++" by Bjarne Stroustrup</li>
-          <li><strong>Online Tutorials:</strong> Codecademy, Udemy, Coursera</li>
-          <li><strong>Projects:</strong> Basic calculator, text-based game</li>
-        </ul>
-
-        <hr>
-        <!-- Additional Beginner Concepts -->
-        <h3>Additional Beginner Concepts</h3>
-        <!-- (This part was already added in the previous beginner update) -->
-        <h4>1. Compiling From Command-Line</h4>
-        <p><strong>What It Means</strong></p>
-        <p>Compiling from the command-line involves using a compiler directly through a terminal rather than an IDE. This offers more control over compiler options and the build process.</p>
-        <p><strong>How It Works</strong></p>
-        <ul>
-          <li>
-            <strong>Compiler Command:</strong>
-            <pre><code>g++ -std=c++17 -o hello hello.cpp</code></pre>
-            <p>Each part means:</p>
-            <ul>
-              <li><strong>g++:</strong> The C++ compiler command.</li>
-              <li><strong>-std=c++17:</strong> Use C++17 standard.</li>
-              <li><strong>-o hello:</strong> Name the output executable “hello.”</li>
-              <li><strong>hello.cpp:</strong> The source file to compile.</li>
-            </ul>
-          </li>
-          <li>
-            <strong>Running the Executable:</strong>
-            <pre><code>./hello</code></pre>
-            <p>This command executes the compiled program.</p>
-          </li>
-        </ul>
-        <p><strong>Why It’s Useful</strong></p>
-        <ul>
-          <li><strong>Customizability:</strong> Add multiple flags and options.</li>
-          <li><strong>Automation:</strong> Easily integrate into build scripts and CI systems.</li>
-          <li><strong>Portability:</strong> Consistent across various operating systems.</li>
-        </ul>
-
-        <h4>2. Basic Language Constructs</h4>
-        <p><strong>Overview</strong></p>
-        <p>These constructs are the core building blocks of any C++ program. They include variables, operators, and control structures that govern data processing and program flow.</p>
-        <p><strong>Key Components</strong></p>
-        <ul>
-          <li><strong>Variables and Data Types:</strong> Store information using primitive types (<code>int</code>, <code>float</code>, etc.).</li>
-          <li><strong>Operators:</strong> Arithmetic, relational, and logical operators enable computation and decisions.</li>
-          <li><strong>Control Structures:</strong> <code>if</code> statements and loops (<code>for</code>, <code>while</code>, <code>do-while</code>) help automate repeated tasks and decision making.</li>
-        </ul>
-        <p><strong>Applications:</strong> Create programs that perform calculations, check conditions (e.g., even/odd), and iterate over collections.</p>
-
-        <h4>3. Structures, Unions, and Enumerations</h4>
-        <p><strong>Structures:</strong> Group related variables into one data type for clearer code.</p>
-        <pre><code>struct Point {
+          
+          <h4>e. Recommended Resources and Mini Projects</h4>
+          <p>
+            Books: "Programming: Principles and Practice Using C++" by Bjarne Stroustrup<br>
+            Online Tutorials: Codecademy, Udemy, Coursera<br>
+            Projects: Basic calculator, text-based game
+          </p>
+          
+          <h3>Additional Beginner Concepts</h3>
+          <h4>1. Compiling From Command-Line</h4>
+          <p><strong>What It Means:</strong> Using a compiler directly through a terminal rather than an IDE. This offers more control over compiler options and the build process.</p>
+          <p><strong>How It Works:</strong></p>
+          <pre><code>g++ -std=c++17 -o hello hello.cpp</code></pre>
+          <p>
+            Each part means:<br>
+            <strong>g++:</strong> The C++ compiler command.<br>
+            <strong>-std=c++17:</strong> Use the C++17 standard.<br>
+            <strong>-o hello:</strong> Name the output executable “hello.”<br>
+            <strong>hello.cpp:</strong> The source file to compile.
+          </p>
+          <p><strong>Running the Executable:</strong></p>
+          <pre><code>./hello</code></pre>
+          <p>
+            This command executes the compiled program.
+          </p>
+          <p><strong>Why It’s Useful:</strong></p>
+          <ul>
+            <li>Customizability: Add multiple flags and options.</li>
+            <li>Automation: Easily integrate into build scripts and CI systems.</li>
+            <li>Portability: Consistent across various operating systems.</li>
+          </ul>
+          
+          <h4>2. Basic Language Constructs</h4>
+          <p>Overview of the core building blocks of any C++ program:</p>
+          <ul>
+            <li><strong>Variables and Data Types:</strong> Store information using primitive types (int, float, etc.).</li>
+            <li><strong>Operators:</strong> Arithmetic, relational, and logical operators enable computations and decisions.</li>
+            <li><strong>Control Structures:</strong> <code>if</code> statements and loops (<code>for</code>, <code>while</code>, <code>do-while</code>) help automate repeated tasks.</li>
+          </ul>
+          
+          <h4>3. Structures, Unions, and Enumerations</h4>
+          <p>Structures: Group related variables into one data type for clearer code.</p>
+          <pre><code>struct Point {
     int x;
     int y;
 };
@@ -675,8 +846,8 @@ int main() {
     std::cout << "x: " << p.x << ", y: " << p.y << std::endl;
     return 0;
 }</code></pre>
-        <p><strong>Unions:</strong> Allow different types to share the same memory for efficiency.</p>
-        <pre><code>union Data {
+          <p>Unions: Allow different types to share the same memory for efficiency.</p>
+          <pre><code>union Data {
     int i;
     float f;
     char str[20];
@@ -684,46 +855,44 @@ int main() {
 
 int main() {
     Data data;
-    data.i = 10;  
+    data.i = 10;
     std::cout << "data.i: " << data.i << std::endl;
     return 0;
 }</code></pre>
-        <p><strong>Enumerations:</strong> Define a type with a set of named constants to improve code clarity.</p>
-        <pre><code>enum Color { RED, GREEN, BLUE };
+          <p>Enumerations: Define a type with a set of named constants to improve code clarity.</p>
+          <pre><code>enum Color { RED, GREEN, BLUE };
 Color myColor = RED;</code></pre>
-        <p><strong>Combined Benefits:</strong> Structure complex data, optimize memory use, clarify program intent, and build robust applications.</p>
-
-        <hr>
-        <!-- 2. Intermediate Level -->
-        <h3>2. Intermediate Level</h3>
-        <h4>a. Functions, Pointers, and References</h4>
-        <p><strong>Functions:</strong> Support overloading, default arguments, and recursion.</p>
-        <pre><code>int add(int a, int b) { return a + b; }
+          <p>Combined Benefits: Structure complex data, optimize memory use, clarify program intent, and build robust applications.</p>
+          
+          <h3>2. Intermediate Level</h3>
+          <h4>a. Functions, Pointers, and References</h4>
+          <p>Functions support overloading, default arguments, and recursion.</p>
+          <pre><code>int add(int a, int b) { return a + b; }
 double add(double a, double b) { return a + b; }</code></pre>
-        <p><strong>Pointers:</strong> Allow direct memory access.</p>
-        <pre><code>int value = 5;
+          <p>Pointers: Allow direct memory access.</p>
+          <pre><code>int value = 5;
 int *ptr = &value;
 std::cout << "Value: " << *ptr;</code></pre>
-        <p><strong>Dynamic Memory:</strong> Allocate and deallocate memory using <code>new</code> and <code>delete</code>.</p>
-        <pre><code>int *arr = new int[10];
+          <p>Dynamic Memory: Allocate and deallocate memory using <code>new</code> and <code>delete</code>.</p>
+          <pre><code>int *arr = new int[10];
 // Use the array...
 delete[] arr;</code></pre>
-        <p><strong>References:</strong> Alias to existing variables for efficient passing.</p>
-        <pre><code>int original = 100;
+          <p>References: Alias to existing variables for efficient passing.</p>
+          <pre><code>int original = 100;
 int &ref = original;
 ref = 200;  // original becomes 200</code></pre>
-
-        <h4>b. Object-Oriented Programming (OOP)</h4>
-        <p><strong>Classes vs. Structures:</strong> Classes default to private members and support encapsulation.</p>
-        <pre><code>class Rectangle {
+          
+          <h4>b. Object-Oriented Programming (OOP)</h4>
+          <p>Classes vs. Structures: Classes default to private members and support encapsulation.</p>
+          <pre><code>class Rectangle {
 private:
     int width, height;
 public:
     Rectangle(int w, int h) : width(w), height(h) {}
     int area() const { return width * height; }
 };</code></pre>
-        <p><strong>Inheritance and Polymorphism:</strong> Enable code reuse and dynamic behavior.</p>
-        <pre><code>class Animal {
+          <p>Inheritance and Polymorphism: Enable code reuse and dynamic behavior.</p>
+          <pre><code>class Animal {
 public:
     virtual void speak() const { std::cout << "Animal sound\n"; }
 };
@@ -736,62 +905,56 @@ public:
 Animal *animal = new Dog();
 animal->speak(); // Woof!
 delete animal;</code></pre>
-
-        <h4>c. The Standard Template Library (STL)</h4>
-        <p><strong>Containers:</strong> Use vectors, lists, maps, and sets for efficient data storage.</p>
-        <pre><code>#include &lt;vector&gt;
+          
+          <h4>c. The Standard Template Library (STL)</h4>
+          <p>Containers: Use vectors, lists, maps, and sets for efficient data storage.</p>
+          <pre><code>#include &lt;vector&gt;
 std::vector&lt;int&gt; numbers = {1, 2, 3, 4};
 numbers.push_back(5);</code></pre>
-        <p><strong>Iterators and Algorithms:</strong> Traverse containers and perform common operations.</p>
-        <pre><code>for (auto it = numbers.begin(); it != numbers.end(); ++it) {
+          <p>Iterators and Algorithms: Traverse containers and perform common operations.</p>
+          <pre><code>for (auto it = numbers.begin(); it != numbers.end(); ++it) {
     std::cout << *it << " ";
 }</code></pre>
-        <p><strong>Lambda Expressions:</strong> Write inline anonymous functions.</p>
-        <pre><code>auto square = [](int x) { return x * x; };
+          <p>Lambda Expressions: Write inline anonymous functions.</p>
+          <pre><code>auto square = [](int x) { return x * x; };
 std::cout << square(5);  // Outputs: 25</code></pre>
-
-        <h4>d. Memory Management and Error Handling</h4>
-        <p><strong>Manual Memory Management:</strong> Use new/delete while avoiding memory leaks.</p>
-        <p><strong>Smart Pointers:</strong> Manage dynamic memory safely.</p>
-        <pre><code>#include &lt;memory&gt;
+          
+          <h4>d. Memory Management and Error Handling</h4>
+          <p>Manual Memory Management: Use <code>new</code>/<code>delete</code> while avoiding memory leaks.</p>
+          <pre><code>#include &lt;memory&gt;
 std::unique_ptr&lt;int&gt; smartInt = std::make_unique&lt;int&gt;(42);
 std::cout << *smartInt;</code></pre>
-        <p><strong>Exception Handling:</strong> Use try-catch blocks to handle errors.</p>
-        <pre><code>try {
+          <p>Exception Handling: Use try-catch blocks to handle errors.</p>
+          <pre><code>try {
     throw std::runtime_error("An error occurred");
 } catch (const std::exception &e) {
     std::cout << "Error: " << e.what();
 }</code></pre>
-
-        <h4>e. Debugging and Testing</h4>
-        <ul>
-          <li><strong>Debugging Tools:</strong> gdb, IDE debuggers, and Valgrind.</li>
-          <li><strong>Unit Testing:</strong> Utilize frameworks such as Google Test for automated tests.</li>
-        </ul>
-
-        <h4>f. Resources and Intermediate Projects</h4>
-        <ul>
-          <li><strong>Books:</strong> "C++ Primer" by Lippman et al.</li>
-          <li><strong>Projects:</strong> Develop a file manager, build a Tic-Tac-Toe game, or create a personal expense tracker.</li>
-        </ul>
-
-        <hr>
-        <!-- 3. Advanced Level (Expert Topics) -->
-        <h3>3. Advanced Level (Expert Topics)</h3>
-        <h4>a. Modern C++ Features (C++11/14/17/20)</h4>
-        <p><strong>Advanced Templates:</strong> Explore function and class templates, specialization, and meta-programming.</p>
-        <p><strong>Lambda Expressions (Advanced):</strong></p>
-        <pre><code>int val = 5;
+          
+          <h4>e. Debugging and Testing</h4>
+          <p>Debugging Tools: gdb, IDE debuggers, and Valgrind.<br>
+             Unit Testing: Utilize frameworks such as Google Test for automated tests.</p>
+          
+          <h4>f. Resources and Intermediate Projects</h4>
+          <p>
+            Books: "C++ Primer" by Lippman et al.<br>
+            Projects: Develop a file manager, build a Tic-Tac-Toe game, or create a personal expense tracker.
+          </p>
+          
+          <h3>3. Advanced Level (Expert Topics)</h3>
+          <h4>a. Modern C++ Features (C++11/14/17/20)</h4>
+          <p>Advanced Templates: Explore function and class templates, specialization, and meta-programming.</p>
+          <pre><code>int val = 5;
 auto func = [val]() mutable { val++; return val; };
 std::cout << func();  // Outputs: 6</code></pre>
-        <p><strong>Move Semantics and Perfect Forwarding:</strong></p>
-        <pre><code>class Buffer {
+          <p>Move Semantics and Perfect Forwarding:</p>
+          <pre><code>class Buffer {
 public:
     Buffer(Buffer&& other) noexcept { /* move resource */ }
     Buffer& operator=(Buffer&& other) noexcept { /* move resource */ return *this; }
 };</code></pre>
-        <p><strong>Concurrency and Parallelism:</strong> Use the thread library and synchronization primitives.</p>
-        <pre><code>#include &lt;thread&gt;
+          <p>Concurrency and Parallelism: Use the thread library and synchronization primitives.</p>
+          <pre><code>#include &lt;thread&gt;
 #include &lt;mutex&gt;
 std::mutex mtx;
 void printBlock(int n, char c) {
@@ -800,88 +963,50 @@ void printBlock(int n, char c) {
         std::cout << c;
     std::cout << std::endl;
 }</code></pre>
-
-        <h4>b. Code Structure, Design Patterns, and Best Practices</h4>
-        <ul>
-          <li><strong>Design Patterns:</strong> Study Singleton, Factory, Observer, Strategy, and Decorator patterns.</li>
-          <li><strong>Code Organization:</strong> Separate declarations (in header files) and implementations (in source files), and use namespaces to avoid naming conflicts.</li>
-          <li><strong>Optimization Techniques:</strong> Profile your code and follow RAII for resource management.</li>
-        </ul>
-
-        <h4>c. Domain-Specific Applications and Advanced Projects</h4>
-        <ul>
-          <li><strong>Systems Programming:</strong> Engage in low-level programming and OS interfacing.</li>
-          <li><strong>Game Development:</strong> Use libraries such as SFML, SDL, OpenGL, or Vulkan for game programming.</li>
-          <li><strong>High-Performance Computing (HPC):</strong> Learn multi-threading and vectorization.</li>
-          <li><strong>Project Ideas:</strong>
-            <ul>
-              <li>Develop a multi-threaded chat server.</li>
-              <li>Build a simple game engine with physics simulation.</li>
-              <li>Contribute to a large-scale open-source project.</li>
-            </ul>
-          </li>
-        </ul>
-
-        <h4>d. Continuous Learning and Community Involvement</h4>
-        <ul>
-          <li><strong>Stay Up-to-Date:</strong> Follow blogs (cppreference.com), participate in forums (r/cpp, Stack Overflow), and attend conferences (CppCon).</li>
-          <li><strong>Advanced Reading:</strong> "Effective Modern C++" by Scott Meyers, "The C++ Programming Language" by Bjarne Stroustrup, and "Clean Code" by Robert C. Martin.</li>
-          <li><strong>Open Source:</strong> Contribute on GitHub to gain real-world experience.</li>
-        </ul>
-
-        <hr>
-        <!-- 4. Putting It All Together: Structuring Your Learning Journey -->
-        <h3>4. Putting It All Together: Structuring Your Learning Journey</h3>
-        <h4>a. Set Clear Milestones and Phases</h4>
-        <ul>
-          <li><strong>Phase 1 (0–3 Months):</strong> Master the basics with simple programs (e.g., calculator, text-based game).</li>
-          <li><strong>Phase 2 (3–9 Months):</strong> Learn about pointers, references, OOP, and basic STL usage.</li>
-          <li><strong>Phase 3 (9–18 Months):</strong> Advance to smart pointers, move semantics, concurrency, and modular code design.</li>
-          <li><strong>Phase 4 (18+ Months):</strong> Specialize in areas such as systems programming, game development, or HPC while contributing to large projects.</li>
-        </ul>
-        <h4>b. Practical Tips and Additional Tools</h4>
-        <ul>
-          <li><strong>Documentation and Learning Resources:</strong> Use cppreference.com and read recommended books.</li>
-          <li><strong>Coding Practice:</strong> Solve problems on LeetCode, HackerRank, or Codeforces.</li>
-          <li><strong>Version Control:</strong> Learn Git for collaboration and code management.</li>
-          <li><strong>Project Management:</strong> Use tools like Trello or GitHub Projects to track milestones.</li>
-          <li><strong>Mentorship and Community:</strong> Engage with local and online C++ communities for feedback and guidance.</li>
-        </ul>
+          
+          <h4>b. Code Structure, Design Patterns, and Best Practices</h4>
+          <p>Design Patterns: Study Singleton, Factory, Observer, Strategy, and Decorator patterns.</p>
+          <p>Code Organization: Separate declarations (in header files) and implementations (in source files), and use namespaces to avoid naming conflicts.</p>
+          <p>Optimization Techniques: Profile your code and follow RAII for resource management.</p>
+          
+          <h4>c. Domain-Specific Applications and Advanced Projects</h4>
+          <p>Systems Programming: Engage in low-level programming and OS interfacing.<br>
+             Game Development: Use libraries such as SFML, SDL, OpenGL, or Vulkan for game programming.<br>
+             High-Performance Computing (HPC): Learn multi-threading and vectorization.</p>
+          <p>Project Ideas:</p>
+          <ul>
+            <li>Develop a multi-threaded chat server.</li>
+            <li>Build a simple game engine with physics simulation.</li>
+            <li>Contribute to a large-scale open-source project.</li>
+          </ul>
+          
+          <h4>d. Continuous Learning and Community Involvement</h4>
+          <p>Stay Up-to-Date: Follow blogs (cppreference.com), participate in forums (r/cpp, Stack Overflow), and attend conferences (CppCon).<br>
+             Advanced Reading: "Effective Modern C++" by Scott Meyers, "The C++ Programming Language" by Bjarne Stroustrup, and "Clean Code" by Robert C. Martin.<br>
+             Open Source: Contribute on GitHub to gain real-world experience.</p>
+          
+          <h3>4. Putting It All Together: Structuring Your Learning Journey</h3>
+          <h4>a. Set Clear Milestones and Phases</h4>
+          <p>
+            Phase 1 (0–3 Months): Master the basics with simple programs (e.g., calculator, text-based game).<br>
+            Phase 2 (3–9 Months): Learn about pointers, references, OOP, and basic STL usage.<br>
+            Phase 3 (9–18 Months): Advance to smart pointers, move semantics, concurrency, and modular code design.<br>
+            Phase 4 (18+ Months): Specialize in areas such as systems programming, game development, or HPC while contributing to large projects.
+          </p>
+          
+          <h4>b. Practical Tips and Additional Tools</h4>
+          <p>
+            Documentation and Learning Resources: Use cppreference.com and read recommended books.<br>
+            Coding Practice: Solve problems on LeetCode, HackerRank, or Codeforces.<br>
+            Version Control: Learn Git for collaboration and code management.<br>
+            Project Management: Use tools like Trello or GitHub Projects to track milestones.<br>
+            Mentorship and Community: Engage with local and online C++ communities for feedback and guidance.
+          </p>
+        </div>
       </div>
+      
     </div>
 
-  </div>
-
-  <script>
-    // Dark/Light mode toggle functionality
-    const toggleButton = document.getElementById('themeToggle');
-    toggleButton.addEventListener('click', function () {
-      document.body.classList.toggle('dark');
-      // Update button text based on the current mode
-      if (document.body.classList.contains('dark')) {
-        toggleButton.textContent = "Light Mode";
-      } else {
-        toggleButton.textContent = "Dark Mode";
-      }
-    });
-
-    // Collapsible section toggle functionality
-    document.addEventListener("DOMContentLoaded", function () {
-      const headers = document.querySelectorAll(".collapsible-header");
-      headers.forEach(header => {
-        header.addEventListener("click", function () {
-          const content = header.nextElementSibling;
-          const arrow = header.querySelector(".toggle-arrow");
-          if (content.style.display === "block") {
-            content.style.display = "none";
-            arrow.style.transform = "rotate(0deg)";
-          } else {
-            content.style.display = "block";
-            arrow.style.transform = "rotate(180deg)";
-          }
-        });
-      });
-    });
-  </script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
